@@ -1,65 +1,53 @@
-.app {
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-  height: 100vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-color: #f8f9fd;
-}
-
-input[type="text"],
-input[type="password"] {
-  height: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-input[type="submit"] {
-  margin-top: 10px;
-  cursor: pointer;
-  font-size: 15px;
-  background: #01d28e;
-  border: 1px solid #01d28e;
-  color: #fff;
-  padding: 10px 20px;
-}
-
-input[type="submit"]:hover {
-  background: #6cf0c2;
-}
-
-.button-container {
-  display: flex;
-  justify-content: center;
-}
-
-.login-form {
-  background-color: white;
-  padding: 2rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.list-container {
-  display: flex;
-}
-
-.error {
-  color: red;
-  font-size: 12px;
-}
-
-.title {
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.input-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 10px;
-} 
 
  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(0,0,0);
+/*   background: linear-gradient(117deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 41%, rgba(0,0,0,1) 59%, rgba(13,13,14,1) 85%); */
+  color: #fff;
+}
+
+
+.coin-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: #fff;
+}
+
+.coin-search{
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-text{
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input{
+  padding-left: 16px;
+  width: 400px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-image: linear-gradient(-225deg,#ac32e4 0%,#7918f2 48%,#4801ff 100%);
+  color: #e2e2e2;
+}
+
+.coin-input::placeholder{
+  color: #e2e2e2;
+}
+
+
